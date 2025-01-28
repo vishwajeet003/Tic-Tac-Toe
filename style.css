@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.icon {
+  border-radius: 50%;
+}
+
+body {
+  background-color: #264653;
+  color: white;
+  text-align: center;
+}
+h1 {
+  font-size: 4rem;
+  margin-top: 20px;
+  color: #fbf6e9;
+  text-shadow: 2px 2px 30px #ffffffad;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.container {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+  background-color: #f3d68d;
+  font-size: 8vmin;
+  color: #f4491e;
+}
+.box:hover {
+  background-color: lightblue;
+}
+
+button {
+  font-family: "Trebuchet MS", sans-serif;
+  cursor: pointer;
+}
+.reset {
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  border: none;
+  background-color: #000;
+  color: white;
+  letter-spacing: 1px;
+  font-size: 1rem;
+  margin-bottom: 8vmin;
+}
+#msg {
+  font-size: 8vmin;
+  color: #f3d68d;
+}
+.new-btn {
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  border: none;
+  background-color: #000;
+  color: white;
+  letter-spacing: 1px;
+  font-size: 1rem;
+  margin-top: 8vmin;
+}
+
+.msg-container {
+  height: 80vmin;
+  margin-top: 2vmin;
+}
+
+.hide {
+  display: none;
+}
